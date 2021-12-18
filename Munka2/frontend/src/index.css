@@ -5,10 +5,12 @@
 
 
 .app{
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #header{
+  -webkit-transform: translate3d(0,0,1px); 
+    -webkit-backface-visibility: hidden;
   background-image: url("../src/images/header.jpg");
   height: 110vh;
   background-attachment: fixed;

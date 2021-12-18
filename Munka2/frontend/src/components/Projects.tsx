@@ -23,8 +23,6 @@ const bgColors = [
 ]
 
 const bgColors2 = [
-
-    
     "bg-orange-900",
     "bg-orange-800",
     "bg-orange-700",
@@ -32,8 +30,6 @@ const bgColors2 = [
     "bg-orange-500",
     "bg-orange-400",
     "bg-orange-300",
-
-
 ]
 
 
@@ -49,7 +45,7 @@ export const Projects = () => {
         const interval =setInterval(()=>{
             setBackground((bg) =>(bg===9 ? 0 : bg+1));
             setBackground2((bg)=>(bg===7 ? 0 : bg+1));
-        },10000)
+        },2000)
     },[]);
 
     useEffect(()=>{
